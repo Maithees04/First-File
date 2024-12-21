@@ -1,0 +1,46 @@
+.content1{
+    width: 100px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    border-radius: 50px;
+}
+.container:hover div{
+    width: 100%;
+}
+.content2{
+    width: 100px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    border-radius: 50px;
+}
+.content3{
+    width: 100px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    border-radius: 50px;
+}
+.content4{
+    width: 100px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    border-radius: 50px;
+}
+.content5{
+    width: 100px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    border-radius: 50px;
+}
+.content6{
+    width: 100px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: steps(5,end);
+    border-radius: 50px;
+}
+
